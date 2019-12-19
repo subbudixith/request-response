@@ -1,12 +1,12 @@
 import axios from "axios";
 
-export const PostPromise = (url: string, body: {}) => {
-    let value: any = {};
-    axios.post(url, { ...body })
-        .then(function (response: any) {
+export const GetPromise = (url) => {
+    let value = {};
+    axios.get(url)
+        .then(function (response) {
             value = response;
         })
-        .catch(function (error: any) {
+        .catch(function (error) {
             value = error;
         })
         .finally(function () {

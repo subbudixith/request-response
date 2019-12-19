@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": false,
-  "repository": "git@github.com:subbudixith/request-responses.git",
+  "main": "./index.ts",
+  "repository": "git@github.com:subbudixith/request-response.git",
   "dependencies": {
     "axios": "^0.18.0"
   },
