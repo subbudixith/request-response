@@ -1,0 +1,13 @@
+{
+  "name": "@subbudixith/request-response",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "repository": "git@github.com:subbudixith/request-responses.git",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
